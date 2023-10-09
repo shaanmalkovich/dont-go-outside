@@ -1,10 +1,5 @@
 const grave = [{name}, {birthDate}, {causeOfDeath}]
 
-let startUpMsg = "You wake up to your alarm at 9:47am on Sunday. You can see sunlight peeking through curtains."
-let activityChoice = prompt('What would you like to do today? ')
-
-
-
 function startUp() {
 let name = prompt('What is your name? ');
 let birthDate = prompt('What year were you born? ');

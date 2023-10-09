@@ -73,13 +73,38 @@ let rave_lines = {
 }
 
 let chipotle_talk = {
-  lineOne: "First time here?",
-  lineTwo: "",
+  lineOne: "I'm amazed they've stayed busy despite the change in management.",
+  lineTwo: "Convenience is convenience, I guess. The service is quick, but I've heard things.",
+  lineThree: "If that health code rating on the wall is any indication"
+}
+
+let chipotle_lines = {
+  line1: greetings,
+  line2: chipotle_talk.lineOne,
+  line3: chipotle_talk.lineTwo,
+  line4: chipotle_talk.lineThree
+}
+
+let subway_talk = {
 
 }
 
+let subway_lines = {
 
-Chipotle - "First time?"
-Subway - "First time?"
-Concert - "First time?"
-Restaurant - "First time?"
+}
+
+let concert_talk = {
+
+}
+
+let concert_lines = {
+
+}
+
+let restaurant_talk = {
+
+}
+
+let restaurant_lines = {
+
+}

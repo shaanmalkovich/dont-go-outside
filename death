@@ -1,0 +1,25 @@
+function startUp() {
+  const grave = [{name}, {birthDate}, {causeOfDeath}]
+    let name = prompt('What is your name? ');
+    let birthDate = prompt('What year were you born? ');
+    grave.push(name);
+    grave.push(birthDate);
+}
+
+function death(name, birthDate, causeOfDeath) {
+  if (isAlive = false) {
+    alert('You Died');
+    alert(grave);
+    alert(`Here lies ${grave[0]}`);
+    console.log(`${birthDate} - 2023`);
+    console.log(`${birthDate}`);
+  }
+}
+
+
+
+  
+
+
+
+startUp()

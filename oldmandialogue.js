@@ -30,20 +30,6 @@ let club_lines = {
   line4: bye
 }
 
-let airport_talk = {
-  lineOne: "I get nervous on flights. A lot can go wrong between boarding and disembarking.",
-  lineTwo: "But it mostly falls on the pilot knowing what they're doing.",
-  lineThree: "Enjoy your flight"
-}
-
-let airport_lines = {
-  line1: greetings,
-  line2: airport_talk.lineOne,
-  line3: airport_talk.lineTwo,
-  line4: airport_talk.lineThree,
-  line5: bye
-}
-
 let beach_talk = {
   lineOne: "Beautiful day out. Lots of people had the same idea, but it's not too crowded.",
   lineTwo: "If it gets too hot, you may find it tempting to take a dip in the ocean.",
@@ -55,21 +41,6 @@ let beach_lines = {
   line2: beach_talk.lineTwo,
   line3: beach_talk.lineThree,
   line4: "Either way, try to make the most of today! Who knows what tomorrow holds?"
-}
-
-let rave_talk = {
-  lineOne: "I'm probably not the kind of person you'd expect to see at these things.",
-  lineTwo: "I keep an eye on the patrons, making sure they stay safe.",
-  lineThree: "Some ill-intentioned folk have been sweeping through with illegal substances.",
-  lineFour: "I've found people convulsing on the dance floor, going into cardiac arrest."
-}
-
-let rave_lines = {
-  line1: greetings,
-  line2: rave_talk.lineOne,
-  line3: rave_talk.lineTwo,
-  line4: rave_talk.lineThree,
-  line5: rave_talk.line
 }
 
 let chipotle_talk = {
@@ -86,23 +57,26 @@ let chipotle_lines = {
 }
 
 let subway_talk = {
-
+  lineOne: "Excuse me, can you help me through? I left my wallet at home.",
+  lineTwo: "Thank you. Time I've been stuck here, I could've walked by now.",
+  lineThree: "People tell me it's faster to take the bus, but it's better this way.",
+  lineFour: "At least here, I know traffic won't delay it and all the stops are scheduled",
+  lineFive: "I'm just worried. There's been 3 stabbings here in the past week."
 }
 
 let subway_lines = {
-
+  line1: subway_talk.lineOne,
+  line2: subway_talk.lineTwo,
+  line3: subway_talk.lineThree,
+  line4: subway_talk.lineFour,
+  line5: subway_talk.lineFive
 }
 
-let concert_talk = {
-
-}
-
-let concert_lines = {
-
-}
 
 let restaurant_talk = {
-
+  lineOne: "",
+  lineTwo: "",
+  lineThree: ""
 }
 
 let restaurant_lines = {

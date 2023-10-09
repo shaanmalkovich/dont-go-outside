@@ -1,7 +1,7 @@
 let greetings = alert('First time?');
 let bye = alert('Enjoy your night.');
 
-let dialogue = [bar_lines, club_lines];
+let dialogue = [bar_lines, club_lines, airport_talk, beach_talk, rave_talk];
 
 
 let bar_talk = {
@@ -11,7 +11,7 @@ let bar_talk = {
 }
 
 let bar_lines = {
-  line1: firstTime,
+  line1: greetings,
   line2: bar_talk.lineOne,
   line3: bar_talk.lineTwo,
   line4: bar_talk.lineThree,
@@ -19,15 +19,15 @@ let bar_lines = {
 }
 
 let club_talk = {
-    lineOne: "I find these settings precarious; you never know what people are up to.",
-    lineTwo: "I've witnessed patrons convulse abruptly as if someone had drugged them. Enjoy your night"
+  lineOne: "I find these settings precarious; you never know what people are up to.",
+  lineTwo: "I've witnessed patrons convulse abruptly as if someone had drugged them. Enjoy your night"
 }
 
 let club_lines = {
-    line1: firstTime,
-    line2: club_talk.lineOne,
-    line3: club_talk.lineTwo,
-    line4: bye
+  line1: greetings,
+  line2: club_talk.lineOne,
+  line3: club_talk.lineTwo,
+  line4: bye
 }
 
 let airport_talk = {
@@ -37,7 +37,7 @@ let airport_talk = {
 }
 
 let airport_lines = {
-  line1: firstTime,
+  line1: greetings,
   line2: airport_talk.lineOne,
   line3: airport_talk.lineTwo,
   line4: airport_talk.lineThree,
@@ -54,13 +54,32 @@ let beach_lines = {
   line1: beach_talk.lineOne,
   line2: beach_talk.lineTwo,
   line3: beach_talk.lineThree,
-  line: "Enjoy"
+  line4: "Either way, try to make the most of today! Who knows what tomorrow holds?"
+}
+
+let rave_talk = {
+  lineOne: "I'm probably not the kind of person you'd expect to see at these things.",
+  lineTwo: "I keep an eye on the patrons, making sure they stay safe.",
+  lineThree: "Some ill-intentioned folk have been sweeping through with illegal substances.",
+  lineFour: "I've found people convulsing on the dance floor, going into cardiac arrest."
+}
+
+let rave_lines = {
+  line1: greetings,
+  line2: rave_talk.lineOne,
+  line3: rave_talk.lineTwo,
+  line4: rave_talk.lineThree,
+  line5: rave_talk.line
+}
+
+let chipotle_talk = {
+  lineOne: "First time here?",
+  lineTwo: "",
+
 }
 
 
-Rave - "First time?" "
 Chipotle - "First time?"
 Subway - "First time?"
 Concert - "First time?"
 Restaurant - "First time?"
-

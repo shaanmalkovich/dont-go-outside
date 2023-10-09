@@ -1,0 +1,10 @@
+Bar - "First time?" "People around here can get rowdy, doesn't take much to stir everyone into a frenzy. Enjoy your night."
+Club - "First time?" "I find these settings precarious; you never know what people are up to. I've witnessed patrons convulse abruptly as if someone had drugged them. Enjoy your night"
+Airport - "First time?" "I get nervous on flights. So much rides on you getting to your destination, but it mostly falls on the pilot knowing what they're doing. Enjoy your flight"
+Beach - "First time?" "If you decide to swim, watch out. The sharks here are lethal"
+Rave - "First time?" "
+Chipotle - "First time?"
+Subway - "First time?"
+Concert - "First time?"
+Restaurant - "First time?"
+

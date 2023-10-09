@@ -21,12 +21,12 @@ let bar_lines = {
 let club_talk = {
     lineOne: "I find these settings precarious; you never know what people are up to.",
     lineTwo: "I've witnessed patrons convulse abruptly as if someone had drugged them. Enjoy your night"
-
+}
 
 let club_lines = {
     line1: firstTime,
-    line2: club_line1,
-    line3: club_line2,
+    line2: club_talk.lineOne,
+    line3: club_talk.lineTwo,
     line4: bye
 }
 

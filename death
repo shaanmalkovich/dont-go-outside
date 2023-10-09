@@ -16,10 +16,4 @@ function death(name, birthDate, causeOfDeath) {
   }
 }
 
-
-
-  
-
-
-
 startUp()

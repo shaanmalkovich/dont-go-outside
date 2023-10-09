@@ -1,1 +1,1 @@
-startUp();
+printStartUpMsg();
